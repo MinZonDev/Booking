@@ -1,3 +1,4 @@
+import 'package:app_booking/utils/dimensions.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:app_booking/widgets/small_text.dart';
 
@@ -19,6 +20,7 @@ class IconAndTextWidget extends StatelessWidget {
         Icon(
           icon,
           color: iconColor,
+          size: Dimensions.iconSize24,
         ),
         SizedBox(
           width: 5,
